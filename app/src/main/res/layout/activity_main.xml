@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/buttonbackround"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="-"
+            android:textSize="20dp"
+            android:id="@+id/btn_minus"
+        />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:text="A"
+            android:textSize="35dp"
+            android:textAlignment="center"
+            android:id="@+id/txt_betu"
+            android:textColor="#ffa500"
+        />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/buttonbackround"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="+"
+            android:textSize="20dp"
+            android:id="@+id/btn_plus"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="110dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TIPPEL"
+            android:textSize="20dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/btn_tippel"
+        />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="90dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/akasztofa00"
+            android:id="@+id/img_akasztofa"
+        />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom|center_horizontal"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="_"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:id="@+id/txt_akasztofa"
+        />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
